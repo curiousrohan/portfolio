@@ -1,0 +1,75 @@
+## Basic Configuration
+
+baseurl = "curiousrohan.github.io"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Rohan Hazra"
+title = "Rohan Porfolio"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+#disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Rohan Hazra"
+intro = "Data Scientist"
+description = "Risk Analyst Intern @Dun & Bradstreet. Huge fan of Rick and Morty. Wubbalubbadubdub!"
+authorimage = "headshot.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Rohan-Hazra-portfolio"
+keywords = "minimalist,python,ml,developer"
+
+## Social Accounts
+[params.social]
+github = "curiousrohan"
+linkedin = "curiousrohan"
+twitter = "rohancodes"
+telegram = "rohanh"
+
+
+
+
+
+
+
+
+
+
+## Extras
+[params.extra]
+copyright = "© 2020 Rohan Hazra"
+poweredby = false
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = false
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 300
+    url = "/about/"
+[[menu.main]]
+    name = "resume"
+    identifier = "resume"
+    weight = 200
+    url = "./pdf/resume.pdf"
